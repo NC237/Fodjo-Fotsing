@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #121212;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0d0d0d;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.navbar .menu li a:hover {
+    color: #fff;
+}
+
+.contact-number {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: url('background.jpg') no-repeat center/cover;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.hero-content h1 span {
+    color: #ffcc00;
+}
+
+.hero-content p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-links a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+    background-color: #1a1a1a;
+}
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10%;
+}
+
+.about-info {
+    flex: 1;
+}
+
+.about-info h3 {
+    color: #ffcc00;
+}
+
+.about-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-info ul li {
+    margin: 0.5rem 0;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    padding: 4rem 2rem;
+    background-color: #121212;
+    text-align: center;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-item {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0d0d0d;
+  color:#ccc;
+}

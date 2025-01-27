@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 1px;
+    margin: 20px;
+    text-align: center;
+}
+
+input{
+    padding: 1px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+p{
+    padding: 1%;
+    margin-left: 20%;
+}
+.down{
+    gap: 1px;
+}

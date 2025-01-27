@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    margin: 10%;
+}
+h1{
+    font-size: 40px;
+}
+input{
+    margin-left: 2px;
+    padding-bottom: 3px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    
+}
+.link{
+        text-decoration: none;
+        list-style: none;
+}
+button{
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    border: none;
+    color: white;
+}
+
